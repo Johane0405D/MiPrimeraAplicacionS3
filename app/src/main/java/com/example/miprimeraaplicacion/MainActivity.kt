@@ -24,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         var defUserName="uAdmin"
         var defPasswd="admin123"
 
+
+
+
+
+
         /**
          * Boton login
          */
