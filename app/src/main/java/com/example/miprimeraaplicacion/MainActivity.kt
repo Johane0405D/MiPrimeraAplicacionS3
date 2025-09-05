@@ -24,11 +24,6 @@ class MainActivity : AppCompatActivity() {
         var defUserName="uAdmin"
         var defPasswd="admin123"
 
-
-
-
-
-
         /**
          * Boton login
          */
@@ -36,27 +31,15 @@ class MainActivity : AppCompatActivity() {
 
             if(edUsername.text.toString() ==defUserName.toString() && edPassw.text.toString() == defPasswd.toString()){
 
-
                 val nuevaVentana = Intent(this, MainActivity2::class.java)
                 nuevaVentana.putExtra("par_usern", edUsername.text.toString())
                 startActivity(nuevaVentana)
 
-
-
-
             }else {
                 txMensaje.text="ERROR USUARIO/PASSWORD"
             }
-
-
-
-
             //txMensaje.text = edUsername.text.toString()
         }
-
-
-
-
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
