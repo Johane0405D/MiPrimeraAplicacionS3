@@ -5,50 +5,51 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity7">
 
-    <TextView
-        android:id="@+id/id_usuario_logueado"
-        android:layout_width="134dp"
-        android:layout_height="48dp"
-        android:text="USER "
-        android:textSize="30dp"
+    <EditText
+        android:id="@+id/ed_apell"
+        android:layout_width="269dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
+        app:layout_constraintVertical_bias="0.224" />
 
-    <Button
-        android:id="@+id/btn_calculadora"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="IR A CALCULADORA"
+    <EditText
+        android:id="@+id/et_nom"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219" />
+        app:layout_constraintVertical_bias="0.111" />
 
-    <Button
-        android:id="@+id/btn_menu"
-        android:layout_width="129dp"
-        android:layout_height="72dp"
-        android:text="Ir a Menu"
-        android:textSize="19dp"
+    <Spinner
+        android:id="@+id/spn_grupo"
+        android:layout_width="266dp"
+        android:layout_height="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
+        app:layout_constraintVertical_bias="0.349" />
 
-    <Button
-        android:id="@+id/btn_api"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ir a menu api"
+    <Spinner
+        android:id="@+id/spn_seccion"
+        android:layout_width="286dp"
+        android:layout_height="47dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -57,27 +58,15 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
-        android:id="@+id/btn_listView"
+        android:id="@+id/btn_enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir a listView"
+        android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.594" />
-
-    <Button
-        android:id="@+id/btn_env_api"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ir a enviar API"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689" />
+        app:layout_constraintVertical_bias="0.612" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

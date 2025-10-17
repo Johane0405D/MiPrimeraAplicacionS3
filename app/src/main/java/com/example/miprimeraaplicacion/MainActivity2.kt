@@ -22,6 +22,7 @@ class MainActivity2 : AppCompatActivity() {
         val btn_menu:Button=findViewById(R.id.btn_menu)
         val btn_api:Button=findViewById(R.id.btn_api)
         val btn_listView:Button=findViewById(R.id.btn_listView)
+        val btn_env_api:Button=findViewById(R.id.btn_env_api)
 
         btn_calculadora.setOnClickListener{
             val ventana3 = Intent(this, MainActivity3::class.java)
@@ -40,6 +41,11 @@ class MainActivity2 : AppCompatActivity() {
         btn_listView.setOnClickListener{
             val ventana6=Intent(this,MainActivity6::class.java)
             startActivity(ventana6)
+        }
+
+        btn_env_api.setOnClickListener{
+            val ventana7=Intent(this,MainActivity7::class.java)
+            startActivity(ventana7)
         }
 
 
