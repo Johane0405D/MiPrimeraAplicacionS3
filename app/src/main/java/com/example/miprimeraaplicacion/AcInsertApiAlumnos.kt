@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.miprimeraaplicacion.API_DuocIntegración.InsertarAlumnosAPI
 
-class MainActivity7 : AppCompatActivity() {
+class AcInsertApiAlumnos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
